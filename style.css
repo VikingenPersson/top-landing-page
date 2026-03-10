@@ -1,8 +1,8 @@
 :root {
-    --header-bg-color: #1F2937;
-    --header-main-text-color: #F9FAF8;
-    --header-secondary-text-color: #E5E7EB;
-    --button-color: #3882F6;
+    --header-bg-color: #19180A;
+    --header-main-text-color: #F5B700;
+    --header-secondary-text-color: #FDFFFC;
+    --button-color: #8D6346;
 }
 
 * {
