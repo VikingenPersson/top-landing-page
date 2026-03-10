@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    border: solid 5px red;
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 8px;
+}
+
+a {
+    text-decoration: none;
+    padding: 8px;
+}
+
+.body {
+    flex: auto;
+    border: solid 5px purple;
+}
+
+.footer {
+    border: solid 5px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
