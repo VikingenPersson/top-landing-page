@@ -1,3 +1,10 @@
+:root {
+    --header-bg-color: #1F2937;
+    --header-main-text-color: #F9FAF8;
+    --header-secondary-text-color: #E5E7EB;
+    --button-color: #3882F6;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -16,14 +23,14 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 16px;
-    background-color: #1f2937;
+    background-color: var(--header-bg-color);
     align-items: center;
 }
 
 .logo{
     font-size: 24px;
     font-weight: 900;
-    color: #F9FAF8;
+    color: var(--header-main-text-color);
 }
 
 ul {
@@ -35,12 +42,12 @@ ul {
 a {
     text-decoration: none;
     padding: 8px;
-    color: #F9FAF8;
+    color: var(--header-main-text-color);
 }
 
 ul a{
     font-size: 18px;
-    color: #e5e7eb;
+    color: var(--header-secondary-text-color);
 }
 
 .body {
@@ -55,8 +62,8 @@ ul a{
     justify-content: center;
     align-items: center;
     padding: 16px;
-    background-color: #1f2937;
-    color: #e5e7eb;
+    background-color: var(--header-bg-color);
+    color: var(--header-secondary-text-color);
     font-size: 18px;
 }
 
@@ -66,8 +73,8 @@ ul a{
     flex-wrap: wrap;
     gap: 24px;
     padding: 24px;
-    background-color: #1f2937;
-    color:#e5e7eb;
+    background-color: var(--header-bg-color);
+    color:var(--header-secondary-text-color);
     font-size: 18px;
 }
 
@@ -87,16 +94,16 @@ ul a{
 }
 
 .hero h1 {
-    color: #F9FAF8;
+    color: var(--header-main-text-color);
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 8px;
 }
 
 button{
-    background-color: #3882f6;
+    background-color: var(--button-color);
     padding: 8px 16px;
-    color:#e5e7eb;
+    color:var(--header-secondary-text-color);
     font-size: 18px;
     font-weight: bold;
     margin-top: 8px;
@@ -106,8 +113,8 @@ button{
 
 .information {
     padding: 36px;
-    color: #1f2937;
-    background-color: #F9FAF8;
+    color: var(--header-bg-color);
+    background-color: var(--header-main-text-color);
 }
 
 .information h2{
@@ -120,7 +127,7 @@ button{
 .information .image{
     width: 150px;
     height: 150px;
-    border: solid 4px #3882f6;
+    border: solid 4px var(--button-color);
     border-radius: 12px;
     margin-bottom: 12px;
 }
@@ -137,12 +144,12 @@ button{
 }
 
 .quote-box{
-    background-color: #e5e7eb;
+    background-color: var(--header-secondary-text-color);
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 50px;
-    color: #1F2937;
+    color: var(--header-bg-color);
 }
 
 .quote{
@@ -166,7 +173,7 @@ button{
     justify-content: center;
     align-items: center;
     padding: 48px;
-    background-color: #F9FAF8;
+    background-color: var(--header-main-text-color);
 }
 
 .action-card{
@@ -175,13 +182,13 @@ button{
     align-items: center;
     max-width: 700px;
     flex: 1 1 300px;
-    background-color: #3882f6;
+    background-color: var(--button-color);
     padding: 48px;
     border-radius: 12px;
-    color:#F9FAF8;
+    color:var(--header-main-text-color);
     gap: 8px;
 }
 
 .action button {
-    border: solid 3px #F9FAF8;
+    border: solid 3px var(--header-main-text-color);
 }
