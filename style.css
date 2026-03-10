@@ -95,11 +95,67 @@ ul a{
 }
 
 .hero button{
-    background-color: cadetblue;
+    background-color: #3882f6;
     padding: 8px 16px;
     color:#e5e7eb;
     font-size: 18px;
     margin-top: 8px;
     border-radius: 12px;
     border: none;
+}
+
+.information {
+    padding: 36px;
+    color: #1f2937;
+}
+
+.information h2{
+    text-align: center;
+    margin: 36px 0;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.information .image{
+    width: 150px;
+    height: 150px;
+    border: solid 4px #3882f6;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+.items {
+    display:flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 0 0 180px;
+}
+
+.quote-box{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    color: #1F2937;
+}
+
+.quote{
+    max-width: 800px;
+    flex: 1 1 300px;
+}
+
+.quote-box em{
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.quote-box p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 16px 0;
 }
