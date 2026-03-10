@@ -45,7 +45,6 @@ ul a{
 
 .body {
     flex: auto;
-    border: solid 5px purple;
     overflow: auto;
     display: flex;
     flex-direction: column;
@@ -94,11 +93,12 @@ ul a{
     margin-bottom: 8px;
 }
 
-.hero button{
+button{
     background-color: #3882f6;
     padding: 8px 16px;
     color:#e5e7eb;
     font-size: 18px;
+    font-weight: bold;
     margin-top: 8px;
     border-radius: 12px;
     border: none;
@@ -107,6 +107,7 @@ ul a{
 .information {
     padding: 36px;
     color: #1f2937;
+    background-color: #F9FAF8;
 }
 
 .information h2{
@@ -158,4 +159,29 @@ ul a{
     font-size: 18px;
     font-weight: bold;
     margin: 16px 0;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    background-color: #F9FAF8;
+}
+
+.action-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 700px;
+    flex: 1 1 300px;
+    background-color: #3882f6;
+    padding: 48px;
+    border-radius: 12px;
+    color:#F9FAF8;
+    gap: 8px;
+}
+
+.action button {
+    border: solid 3px #F9FAF8;
 }
